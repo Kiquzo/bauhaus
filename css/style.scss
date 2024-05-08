@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'Bauhaus';
+    src: url('../fonts/Bauhaus_.ttf') format('opentype');
+}
+
+@mixin center-container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EAEAEA;
+}
+
+.wrapper{
+    @include center-container;
+}
+
+header{
+    @include center-container;
+    // position: fixed;
+    position: absolute;
+    // background-color: transparent;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 54px;
+    height: 69px;
+    margin-right: 325px;
+    margin-left: 120px;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    gap: 0 36px;
+}
+
+.navigation a{
+    color: black;
+    font-family: "Open Sans";
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+}
