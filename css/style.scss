@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Bauhaus';
-    src: url('../fonts/Bauhaus_.ttf') format('opentype');
+    src: url('../fonts/Bauhaus_.ttf') format('truetype');
 }
 
 @mixin center-container{
@@ -26,9 +26,7 @@ body{
 
 header{
     @include center-container;
-    // position: fixed;
     position: absolute;
-    // background-color: transparent;
     height: 110px;
     display: flex;
     align-items: center;
@@ -53,4 +51,26 @@ header img{
     font-size: 25px;
     text-decoration: none;
     font-weight: 700;
+}
+
+.salution-block{
+    @include center-container;
+    height: 976px;
+    background-image: url(../imgs/BG-salution.png);
+}
+
+.titel-block{
+    font-family: "Bauhaus";
+    font-size: 80px;
+    padding-top: 178px;
+    padding-left: 733px;
+}
+
+.titel-block h1{
+    color: #D1211A;
+}
+
+.titel-block h2{
+    color: #3D4B58;
+    padding-left: 138px;
 }
