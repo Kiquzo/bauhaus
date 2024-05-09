@@ -21,6 +21,13 @@ body{
     background-color: #EAEAEA;
 }
 
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 66px;
+    font-weight: 600;
+    color: black;
+}
+
 .wrapper{
     @include center-container;
 }
@@ -108,13 +115,6 @@ header img{
     justify-content: center;
 }
 
-.bauhaus-is-titel h2{
-    font-family: "Roboto", sans-serif;
-    font-size: 66px;
-    font-weight: 600;
-    color: black;
-}
-
 .history{
     @include center-container;
     height: 804px;
@@ -153,13 +153,6 @@ header img{
     justify-content: center;
 }
 
-.history-titel h2{
-    font-family: "Roboto", sans-serif;
-    font-size: 66px;
-    font-weight: 600;
-    color: black;
-}
-
 .bauhaus-builds{
     @include center-container;
     height: 583px;
@@ -180,4 +173,37 @@ header img{
 .build-img3{
     width: 365px;
     height: 583px;
+}
+
+.bauhaus-style{
+    @include center-container;
+    height: 817px;
+    display: flex;
+    margin-top: 121px;
+    justify-content: flex-end;
+    gap: 0 84px;
+}
+
+.bauhaus-style-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 53px;
+}
+
+.bauhaus-style-txt p{
+    font-family: "Roboto", sans-serif;
+    font-size: 33px;
+    font-weight: 500;
+    width: 790px;
+    text-align: justify;
+}
+
+.bauhaus-style-titel{
+    background-color: #F2B544;
+    height: 125px;
+    width: 798px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
