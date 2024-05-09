@@ -99,7 +99,7 @@ header img {
 }
 
 .bauhaus-is-txt p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 33px;
   font-weight: 500;
   width: 736px;
@@ -139,7 +139,7 @@ header img {
 }
 
 .history-txt p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 33px;
   font-weight: 500;
   width: 790px;
@@ -160,6 +160,7 @@ header img {
   width: 100%;
   margin: 0 auto;
   height: 583px;
+  margin-top: 110px;
   display: flex;
   overflow: hidden;
 }
@@ -198,7 +199,7 @@ header img {
 }
 
 .bauhaus-style-txt p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 33px;
   font-weight: 500;
   width: 790px;
@@ -232,7 +233,7 @@ header img {
 }
 
 .bauhaus-interior-txt p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 33px;
   font-weight: 500;
   width: 790px;
@@ -255,4 +256,91 @@ header img {
 .bauhaus-interior-imgs img {
   width: 375px;
   height: 450px;
+}
+
+.box {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+footer {
+  max-width: 1341px;
+  width: 100%;
+  margin: 0 auto;
+  height: 253px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.logo-footer {
+  width: 54px;
+  height: 69px;
+}
+
+.box-content {
+  display: flex;
+  gap: 0 71px;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-navigation ul {
+  list-style-type: disc;
+  color: #D91E1E;
+  font-size: 20px;
+  padding-left: 19px;
+}
+
+.footer-navigation a {
+  color: black;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.phone {
+  color: black;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.under-phone {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button {
+  display: flex;
+  width: 190px;
+  border: none;
+  background: none;
+  gap: 0 15px;
+}
+
+button a {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
 }/*# sourceMappingURL=allstyles.css.map */
