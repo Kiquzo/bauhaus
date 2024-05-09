@@ -36,7 +36,7 @@ header {
   align-items: center;
 }
 
-header img {
+.logo-head {
   width: 54px;
   height: 69px;
   margin-right: 325px;
@@ -356,7 +356,7 @@ button a {
   header {
     height: 100px;
   }
-  header img {
+  .logo-head {
     width: 41px;
     height: 52px;
     margin-right: 75px;
