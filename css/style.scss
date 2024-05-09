@@ -159,3 +159,25 @@ header img{
     font-weight: 600;
     color: black;
 }
+
+.bauhaus-builds{
+    @include center-container;
+    height: 583px;
+    display: flex;
+    overflow: hidden;
+}
+
+.build-img1{
+    width: 426px;
+    height: 583px;
+}
+
+.build-img2{
+    width: 381px;
+    height: 583px;
+}
+
+.build-img3{
+    width: 365px;
+    height: 583px;
+}

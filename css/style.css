@@ -160,4 +160,28 @@ header img {
   font-size: 66px;
   font-weight: 600;
   color: black;
+}
+
+.bauhaus-builds {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  height: 583px;
+  display: flex;
+  overflow: hidden;
+}
+
+.build-img1 {
+  width: 426px;
+  height: 583px;
+}
+
+.build-img2 {
+  width: 381px;
+  height: 583px;
+}
+
+.build-img3 {
+  width: 365px;
+  height: 583px;
 }/*# sourceMappingURL=style.css.map */
