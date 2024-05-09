@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @font-face {
   font-family: "Bauhaus";
-  src: url("../fonts/Bauhaus_.ttf") format("truetype");
+  src: url("../fonts/BauhausRegular.ttf") format("truetype");
 }
 * {
   margin: 0;
@@ -59,7 +59,7 @@ header img {
 
 .titel-block {
   font-family: "Bauhaus";
-  font-size: 80px;
+  font-size: 78px;
   padding-top: 178px;
   padding-left: 733px;
 }
