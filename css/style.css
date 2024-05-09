@@ -113,4 +113,51 @@ header img {
   font-size: 66px;
   font-weight: 600;
   color: black;
+}
+
+.history {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  height: 804px;
+  margin-top: 145px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 109px;
+}
+
+.history img {
+  width: 560px;
+  height: 695px;
+}
+
+.history-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 34px;
+}
+
+.history-txt p {
+  font-family: "Roboto", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  width: 790px;
+  text-align: justify;
+}
+
+.history-titel {
+  background-color: #F2B544;
+  height: 125px;
+  width: 691px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-titel h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 66px;
+  font-weight: 600;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
