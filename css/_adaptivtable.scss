@@ -1,0 +1,167 @@
+@media screen and (max-width: 960px) {
+    @mixin center-container {
+        max-width: 960px;
+    }
+    
+    h3{
+        font-size: 42px;
+    }
+
+    header{
+        height: 100px;
+    }
+
+    header img{
+        width: 41px;
+        height: 52px;
+        margin-right: 75px;
+        margin-left: 47px;
+    }
+
+    .navigation{
+        gap: 0 47px;
+    }
+
+    .navigation a{
+        font-size: 27px;
+    }
+
+    .salution-block{
+        height: 674px;
+        background-image: url(../imgs/BG-salution-T.png);
+    }
+
+    .titel-block{
+        font-size: 50px;
+        padding-top: 125px;
+        padding-left: 448px;
+    }
+
+    .titel-block h2{
+        padding-left: 77px;
+    }
+
+    .bauhaus-is{
+        height: 526px;
+        margin-top: 48px;
+        gap: 0 85px;
+    }
+
+    .bauhaus-is-txt{
+        gap: 38px;
+        margin-top: 85px;
+    }
+
+    .bauhaus-is-txt p{
+        font-size: 21px;
+        width: 473px;
+    }
+
+    .bauhaus-is-titel{
+        height: 80px;
+        width: 434px;
+    }
+
+    .history{
+        height: 445px;
+        margin-top: 53px;
+        gap: 0 73px;
+    }
+
+    .history img{
+        width: 309px;
+        height: 383px;
+    }
+
+    .history-txt{
+        gap: 22px;
+        margin-top: 40px;
+    }
+
+    .history-txt p{
+        font-size: 20px;
+        width: 435px;
+    }
+
+    .history-titel{
+        height: 85px;
+        width: 434px;
+    }
+
+    .bauhaus-builds{
+        height: 350px;
+        margin-top: 104px;
+    }
+    
+    .build-img1{
+        width: 256px;
+        height: 350px;
+    }
+    
+    .build-img2{
+        width: 229px;
+        height: 350px;
+    }
+    
+    .build-img3{
+        width: 219px;
+        height: 350px;
+    }
+
+    .bauhaus-style{
+        height: 506px;
+        margin-top: 85px;
+        gap: 0 66px;
+    }
+
+    .bauhaus-style img{
+        width: 358px;
+        height: 506px;
+    }
+
+    .bauhaus-style-txt{
+        gap: 37px;
+        margin-top: 33px;
+    }
+    
+    .bauhaus-style-txt p{
+        font-size: 20px;
+        width: 489px;
+    }
+
+    .bauhaus-style-titel{
+        height: 77px;
+        width: 495px;
+    }
+
+    .bauhaus-interior{
+        height: 507px;
+        margin-top: 100px;
+        gap: 0 82px;
+    }
+
+    .bauhaus-interior-txt{
+        gap: 37px;
+        margin-top: 82px;
+    }
+
+    .bauhaus-interior-txt p{
+        font-size: 20px;
+        width: 489px;
+    }
+
+    .bauhaus-interior-imgs{
+        height: 385px;
+        margin-top: 89px;
+    }
+    
+    .bauhaus-interior-imgs img{
+        width: 225px;
+        height: 270px;
+    }
+
+    .box{
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+}
