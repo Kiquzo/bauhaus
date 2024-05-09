@@ -212,4 +212,29 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.bauhaus-interior {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  height: 817px;
+  display: flex;
+  margin-top: 125px;
+  gap: 0 109px;
+}
+
+.bauhaus-interior-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 132px;
+}
+
+.bauhaus-interior-txt p {
+  font-family: "Roboto", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  width: 790px;
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */
