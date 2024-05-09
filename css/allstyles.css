@@ -57,6 +57,10 @@ header img {
   font-weight: 700;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .salution-block {
   max-width: 1600px;
   width: 100%;

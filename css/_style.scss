@@ -61,6 +61,10 @@ header img{
     font-weight: 700;
 }
 
+.burger-menu{
+    display: none;
+}
+
 .salution-block{
     @include center-container;
     height: 976px;
